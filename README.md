@@ -1,4 +1,4 @@
-# PDF Data Extraction and MySQL Insertion
+# PARSING OF THE DOCUMENTS AND EXTRACTING THE DATA
 
 This project extracts data from a PDF file and inserts it into a MySQL database using Python. The data extraction is performed using the PyMuPDF library (fitz), and the data is inserted into a MySQL database using the mysql-connector-python library.
 
