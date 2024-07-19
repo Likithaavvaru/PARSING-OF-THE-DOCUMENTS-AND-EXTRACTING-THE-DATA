@@ -1,0 +1,18 @@
+Here are the SQL queries which you need to run in the MySQL server
+-> CREATE DATABASE INVOICES;
+-> USE INVOICES;
+-> CREATE TABLE extracted_invoices (
+    ->     ID INT AUTO_INCREMENT PRIMARY KEY,
+    ->     Invoice VARCHAR(50)
+    -> );
+-> CREATE TABLE extracted_values (
+    ->     ID INT AUTO_INCREMENT PRIMARY KEY,
+    ->     IRIN VARCHAR(24), -- Adjust length according to your needs
+    ->     Ack_No VARCHAR(25) -- Adjust length according to your needs
+    -> );
+-> INSERT INTO extracted_values (IRIN, Ack_No) VALUES ('<IRIN_VALUE>',                           '<ACK_NO_VALUE>');
+-> INSERT INTO extracted_invoices (Invoice) VALUES ('<INVOICE_VALUE>');
+-> SELECT * FROM extracted_values;
+-> SELECT * FROM extracted_invoices;
+
+----The extracted data will be seen in the table format---
