@@ -13,7 +13,10 @@ This project extracts data from a PDF file and inserts it into a MySQL database 
 - Python 3.x
 - MySQL server
 - Required Python libraries:
-  - `PyMuPDF`
+  - PyMuPDF
+  - Fitz
+  - re
+  - mysql-connector-python
 
 ## Installing the Libraries
 pip install PyMuPDF
